@@ -5,5 +5,5 @@ docker run \
   -w /usr/src/app \
   -v $PWD:/usr/src/app \
   -v $PWD/node_modules:/.npm \
-  reactreduxtest_fe \
+  reactreduxtest_app \
   /bin/bash -c "$1"

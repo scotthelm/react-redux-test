@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker-compose build
+script/npm_stuff "npm install"
