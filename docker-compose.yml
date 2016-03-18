@@ -1,0 +1,7 @@
+fe:
+  build: .
+  volumes:
+    - .:/usr/src/app
+  command: 'webpack-dev-server --config webpack-config.js --progress --inline --colors --watch'
+  ports:
+    - "8090:8090"
